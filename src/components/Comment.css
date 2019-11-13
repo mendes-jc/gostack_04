@@ -1,0 +1,18 @@
+div#content {
+    background: #DDD;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    margin: 10px;
+}
+div#commentBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img#avatar {
+    border-radius: 100%;
+    height: 45px;
+}

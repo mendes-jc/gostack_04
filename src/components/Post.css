@@ -1,0 +1,45 @@
+div#post {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0px 0px 8px grey;
+    padding: 30px;
+}
+div#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+img#authorAvatar {
+    height: 50px;
+    border-radius: 100%;
+}
+div#postData {
+    margin-left: 20px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#authorName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    color: black;
+}
+#postDate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#postContent {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#comments {
+    margin-left: 2%;
+    margin-right: 2%;
+}

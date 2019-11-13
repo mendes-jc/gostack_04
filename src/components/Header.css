@@ -1,4 +1,30 @@
-div {
-    background-color: #14F;
-    height: 300;
+div#container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3b5998;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+div#myProfile {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 120%
+}
+img#profilePhoto {
+    height: 70px;
+    border-radius: 100%;
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    margin-right: 30px;
+}
+img#facebookLogo {
+    height: 40px;
+    margin: 20px;
 }
